@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.7.0",
+    "@lucia-auth/adapter-sqlite": "^3.0.0",
+    "@types/better-sqlite3": "^7.6.9",
+    "arctic": "^1.1.4",
+    "better-sqlite3": "^9.4.0",
+    "dotenv": "^16.4.1",
+    "hono": "^4.0.0",
+    "lucia": "^3.0.1"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.2"
+  }
+}
